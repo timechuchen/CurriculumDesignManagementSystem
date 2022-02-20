@@ -1,0 +1,91 @@
+.nav .enroll {
+    display: inline-block;
+    margin-left: 850px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.name {
+    display: inline-block;
+    color: #4b4949;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.left {
+    float: left;
+    border: 3px solid #34343b;
+    width: 150px;
+    height: 500px;
+    padding-top: 75px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 65px;
+    color: black;
+}
+
+.oneButton {
+    border: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(66, 51, 47, 0.15);
+    width: 144px;
+    height: 65px;
+    color: #6f5656;
+}
+
+.oneButton:hover{
+    background-color: #666666;
+}
+
+.right {
+    border: 5px solid #574c4c;
+    float: right;
+    margin-left: 10px;
+    width: 1040px;
+    height: 500px;
+}
+
+table thead{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+table tbody {
+    display: block;
+    height: 415px;
+    border: 0;
+    line-height: 50px;
+    border-spacing: 0;
+    font-size: 30px;
+    font-weight: 400;
+    border-collapse: collapse;
+    cursor: default;
+}
+
+tbody {
+    overflow-y: scroll;
+}
+
+table thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table thead {
+    width: calc(100% - 1em)
+}
+
+table thead th {
+    background: rgba(66, 73, 80, 0.67);
+    width: 20%;
+}
+
+table tbody td {
+    width: 20%;
+    text-align: center;
+}

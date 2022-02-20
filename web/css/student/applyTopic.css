@@ -1,0 +1,53 @@
+.box {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    color: #322626;
+    background-color: rgba(125,125,125,.5);
+    overflow: hidden;
+}
+
+.title {
+    height: 60px;
+    margin: 45px 0;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #555252;
+}
+
+.box .name{
+    height: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+}
+
+.box input {
+    height: 30px;
+    border: 2px solid black;
+}
+
+.box .introduction {
+    word-wrap:break-word;
+    overflow:hidden;
+}
+
+.box .btn {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #1deeab;
+}
+
+.box .btn:hover{
+    cursor: pointer;
+    background-color: #c81623;
+}

@@ -1,0 +1,94 @@
+/* 把所有标签的内外边距清零 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* em和i里面的斜体文字不倾斜 */
+
+em,
+i {
+    font-style: normal
+}
+
+
+/* 去掉li的小圆点 */
+
+li {
+    list-style: none
+}
+
+
+/* 文字相对图片居中显示 （取消图片底册有白色边框问题）*/
+
+img {
+    border: 0;
+    /* 这个是为了适应低版本浏览器，如果图片外面有链接会出现边框的问题 */
+    vertical-align: middle
+}
+
+
+/* 鼠标移动到按钮上鼠标要变成小手 */
+
+button {
+    cursor: pointer;
+}
+
+
+/* 定义链接的颜色并且取消下划线 */
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623;
+}
+
+
+/* 字体 */
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+
+/* 浏览器的一些页面初始化（颜色，字体等） */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    /*  CSS3的特性，文字变大之后不要有太明显的锯齿 */
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+
+/* 隐藏元素 */
+
+.hide,
+.none {
+    display: none
+}
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}

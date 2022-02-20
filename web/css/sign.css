@@ -1,0 +1,121 @@
+.main {
+    margin-top: 100px;
+    height: 530px;
+    overflow: hidden;
+    background-color: rgba(234, 236, 223, 0.63);
+    z-index: 100;
+}
+
+.nw {
+    width: 800px;
+    margin: 100px auto;
+}
+
+table td {
+    padding: 5px;
+}
+
+.rgs {
+    text-align: center;
+    font-size: 20px;
+    line-height: 66px;
+    color: rgb(56, 61, 63);
+}
+
+.rgs .left {
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+}
+
+.rgs .right {
+    line-height: 25px;
+    color: black;
+}
+
+.rgs tr {
+    margin: 5px 0;
+}
+
+.rgs .right input {
+    display: block;
+    border: 1px solid black;
+    height: 25px;
+}
+
+.rgs .right select {
+    display: block;
+    border: 1px solid black;
+    width: 140px;
+    height: 25px;
+}
+
+.rgs .submit {
+    display: inline-block;
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.rgs .reset {
+    display: inline-block;
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.box {
+    display: block;
+    width: 380px;
+    height: 280px;
+    margin: 20px auto;
+}
+
+.pit {
+    float: left;
+    width: 160px;
+    height: 125px;
+}
+
+.pit .pit1 {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.box .pit2 {
+    float: right;
+    display: block;
+    clear: both;
+    width: 150px;
+    height: 25px;
+}
+
+.box .box1 {
+    float: left;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 150px;
+}
+
+.box .box2 {
+    margin: 0px auto;
+    width: 260px;
+    height: 270px;
+}
+
+.rgs .right select {
+    display: block;
+    border: 1px solid black;
+    width: 149px;
+    height: 25px;
+}

@@ -1,0 +1,78 @@
+body {
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background-size:cover;
+}
+
+.pre {
+    margin: 0 auto;
+    padding: 0 170px;
+    height: 25px;
+    color: rgb(47, 143, 187);
+    line-height: 25px;
+    background-color: rgba(243, 238, 238, 0.39);
+}
+
+.pre button {
+    margin-top: 6px;
+    float: right;
+    background-color: rgba(243, 238, 238, 0.6);
+    border: 2px solid rgba(61, 55, 55, 0.85);
+    color: #c81623;
+    border-radius: 25px;
+}
+
+.baidu {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    width: 410px;
+    height: 65px;
+    padding-top: 3px;
+}
+
+.baidu li {
+    float: left;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.baidu img {
+    width: 100px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 120px;
+    margin: 5px auto;
+    background-image: url("../images/nav_background.png");
+}
+
+
+.main {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 500px;
+    overflow: hidden;
+    background-color: rgba(234, 236, 223, 0.63);
+}
+
+.nav .logo {
+    margin: 10px 50px;
+}
+
+.button {
+    background-color: rgba(194, 189, 189, 0.507);
+}
+
+.button .nr {
+    font-size: 19px;
+    text-align: center;
+}
